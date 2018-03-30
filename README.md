@@ -48,7 +48,6 @@ answer questions 3.1 - 3.4
 ## 4. Counter with synchronized method
 
 answer question 4
-
 ## 5. Counter with AtomicLong
 
 answer question 5
