@@ -1,9 +1,10 @@
 public class ThreadSum {
     public static void main( String[] args ) {
 // upper limit of numbers to add/subtract to Counter
-        final int LIMIT = 1000000;
+        final int LIMIT = 1000;
 // The counter that accumulates a total.
-        Counter counter = new CounterWithLock();
+        Counter counter = new Counter();
+//        runThreads(counter,1000000);
         runThreads( counter, LIMIT );
     }
     public static void runThreads( Counter counter, final int limit )

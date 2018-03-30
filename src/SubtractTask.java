@@ -1,3 +1,7 @@
+/**
+ * AddTask adds number -1 ... limit to the counter, then exits.
+ * @author Manusporn Fukkham
+ */
 public class SubtractTask implements Runnable{
     private Counter counter;
     private int limit;
