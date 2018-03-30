@@ -69,7 +69,8 @@ answer question 6
 
 - 6.1 On the result the *Counter* is the fastest by result are not correctly, So the fastest is *AtomicCounter* and Slowest 
 is *ReentrantLock*.
-- 6.2 *Syncronized method*
+- 6.2 **Syncronized** because it make method analyze thread to work together more correctly during the same time 
+(Slow but sure).
 
 ## 7. Using Many Threads (optional)
 
