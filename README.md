@@ -81,5 +81,6 @@ is *ReentrantLock*.
 | Syncronized method      |  10,000,000        | 4.443637        |
 | AtomicLong for total    |  10,000,000        | 2.182159        |
 
-- The fastest : AtomicCounter
-- The Slowest : Syncronized
+- The fastest : Normal Counter(not correct result)
+              --> *AtomicCounter* (fastest)
+- The Slowest : *Syncronized*

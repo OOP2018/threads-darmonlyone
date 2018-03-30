@@ -3,8 +3,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.TimeUnit;
 
 public class ManyThread {
+    private static final int LIMIT = 10000000;
     public static void main(String[] args) {
-        final int LIMIT = 1000000;
         Counter[] counterArrays = {new Counter(), new CounterWithLock(), new SynchronousCounter(), new AtomicCounter()};
         for (Counter counter: counterArrays)
         runThreads(5, counter, LIMIT );
