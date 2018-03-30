@@ -17,10 +17,10 @@ The threads use the counter to add and subtract values.
 
 | Counter class           | Limit              | Runtime (sec)   |
 |:------------------------|:-------------------|-----------------|
-| Unsynchronized counter  |  1000000           | 0.007748        |
-| Using ReentrantLock     |  1000000           | 0.096573        |
-| Syncronized method      |  1000000           | 0.086584        |
-| AtomicLong for total    |  1000000           | 0.036065        |
+| Unsynchronized counter  |  1,000,000         | 0.007748        |
+| Using ReentrantLock     |  1,000,000         | 0.096573        |
+| Syncronized method      |  1,000,000         | 0.086584        |
+| AtomicLong for total    |  1,000,000         | 0.036065        |
 
 ## 1. Using unsynchronized counter object
 
@@ -73,3 +73,12 @@ is *ReentrantLock*.
 
 ## 7. Using Many Threads (optional)
 
+| Counter class           | Limit              | Runtime (sec)   |
+|:------------------------|:-------------------|-----------------|
+| Unsynchronized counter  |  10,000,000        | 0.086296        |
+| Using ReentrantLock     |  10,000,000        | 2.894619        |
+| Syncronized method      |  10,000,000        | 4.443637        |
+| AtomicLong for total    |  10,000,000        | 2.182159        |
+
+- The fastest : AtomicCounter
+- The Slowest : Syncronized
