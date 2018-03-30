@@ -44,6 +44,8 @@ How might this affect real applications?
 answer questions 3.1 - 3.4
 
 - 3.1 its always 0. **RECORD:** 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.
+- 3.2 Lock lock the thread to run once at a time.
+- 3.3
 
 ## 4. Counter with synchronized method
 
